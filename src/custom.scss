@@ -22,7 +22,8 @@ body {
 .color-secondary {color: $secondary}
 .color-light { color: $light}
 .color-dark {color: $dark}
-.text-justify {text-align:justify}
+.text-justify {text-align:justify};
+.clickable {cursor: pointer;};
 
 .lowOpacity {
     opacity: .5;
