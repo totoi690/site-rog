@@ -1,0 +1,80 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary: #e45c3a;
+$secondary: #B69D74;
+$sucess: white;
+$danger: white;
+$warning: white;
+$info: white;
+$light: white;
+$dark: #1F2839;
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: $light;
+}
+
+.bgd-primary {background-color: $primary}
+.bgd-secondary {background-color: $secondary}
+.bgd-light {background-color: $light}
+.bgd-dark {background-color: $dark}
+.color-primary {color: $primary}
+.color-secondary {color: $secondary}
+.color-light { color: $light}
+.color-dark {color: $dark}
+.text-justify {text-align:justify}
+
+.lowOpacity {
+    opacity: .5;
+    height: 90vh;
+    width: 100vw;
+    object-fit: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.highOpacity {opacity: 1;}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+
+.textTitulo {
+    color: $light;
+    text-shadow: .2rem .2rem $dark;
+    font-weight: 900;
+}
+
+.textSubtitulo {
+    color: $secondary;
+    background-color: $light;
+    font-weight: 400
+}
+
+.textLead {
+    color: $light;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.bg {
+    background-image: url('./Fotos/direito.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+    padding-bottom: 300px
+}
